@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Gouden Korst - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo van De Gouden Korst">
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="assortiment.html">Assortiment</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Contacteer Ons</h1>
+            <p>Heb je vragen of wil je een bestelling plaatsen? Neem contact met ons op!</p>
+        </div>
+    </header>
+    <main>
+        <section id="contact-form" class="section-light">
+            <div class="container">
+                <h2>Neem Contact Op</h2>
+                <p>Heb je vragen of wil je een bestelling plaatsen? Vul onderstaand formulier in en we nemen zo snel
+                    mogelijk contact met je op.</p>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Naam:</label>
+                        <input type="text" id="name" name="name" required placeholder="Jouw naam">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mailadres:</label>
+                        <input type="email" id="email" name="email" required placeholder="Jouw e-mailadres">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Bericht:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Jouw bericht"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Verstuur Bericht</button>
+                </form>
+            </div>
+        </section>
+        <section id="contact-info" class="section-dark">
+            <div class="container">
+                <h2>Onze Gegevens</h2>
+                <div class="contact-details">
+                    <p>De Gouden Korst Bakkerij</p>
+                    <p>Hoofdstraat 123, 1234 AB Plaatsnaam</p>
+                    <p>Telefoon: 0123-456789</p>
+                    <p>E-mail: info@degoudenkorst.nl</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 De Gouden Korst. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

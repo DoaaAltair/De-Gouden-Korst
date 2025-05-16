@@ -4,8 +4,7 @@ Dit project is een eenvoudige, functionele website voor de fictieve bakkerij "De
 
 Live Demo
 
-Bekijk de website live op: https://de-gouden-korst.vercel.app
-
+Bekijk de website live op: https://de-gouden-korst.vercel.app/
 Projectstructuur
 
 

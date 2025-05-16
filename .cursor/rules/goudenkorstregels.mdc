@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Regels voor de website van De Gouden Korst
+globs: **/*.html, **/*.css, **/*.js
+alwaysApply: true
+---
+# Web Development Regels
+- Gebruik semantische HTML-tags (zoals <header>, <nav>, <main>, <footer>) waar mogelijk.
+- Voeg altijd een alt-attribuut toe aan <img>-tags voor toegankelijkheid.
+- Schrijf CSS met een mobile-first aanpak (gebruik media queries voor grotere schermen).
+- Gebruik ES6+ JavaScript en vermijd verouderde constructies zoals var.
+- Volg de huisstijl: gebruik een warm kleurenpalet (bijv. goud, bruin) en een leesbaar sans-serif lettertype (bijv. Arial of Roboto).
+- Zorg dat code voldoet aan W3C-standaarden en werkt in moderne browsers (Chrome, Firefox, Safari).
+- Footer altijd onderaan pagina moet blijven.
+
+- navigatiebalk altijd bovenaan moet blijven (fixed positioning).

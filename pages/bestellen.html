@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestellen - De Gouden Korst</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../afbeelding/logo.png" alt="Logo van De Gouden Korst">
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/assortiment.html">Assortiment</a></li>
+            <li><a href="../pages/brood.html">Brood</a></li>
+            <li><a href="../pages/bestellen.html" class="active">Bestellen</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="bestellen-section">
+            <div class="container">
+                <h1>Bestel Ons Vers Gebakken Brood</h1>
+                <p class="section-intro">Kies uit ons assortiment en laat het vers bij u thuis bezorgen.</p>
+
+                <div class="bestellen-grid">
+                    <!-- Brood Producten -->
+                    <div class="brood-producten">
+                        <div class="brood-grid">
+                            <!-- Volkorenbrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/volkoren-brood.jpg" alt="Volkorenbrood van De Gouden Korst">
+                                <h2>Volkorenbrood</h2>
+                                <p>Een voedzaam brood met een knapperige korst, perfect voor dagelijks gebruik.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="volkoren-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="volkoren-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Volkorenmeel</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                            <li>Zonnebloempitten</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Volkorenbrood"
+                                    data-price="3.50">Bestellen</button>
+                            </article>
+
+                            <!-- Witbrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/witte-brood.jpg" alt="Witbrood van De Gouden Korst">
+                                <h2>Witbrood</h2>
+                                <p>Zacht en luchtig brood, ideaal voor sandwiches.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="witbrood-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="witbrood-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Bloem</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                            <li>Suiker</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Witbrood" data-price="3.00">Bestellen</button>
+                            </article>
+
+                            <!-- Desembrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/zuurdesembrood.jpg" alt="Desembrood van De Gouden Korst">
+                                <h2>Desembrood</h2>
+                                <p>Rustiek brood met een rijke smaak, gemaakt met natuurlijke desem.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="desem-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="desem-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Volkorenmeel</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Desemstarter</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Desembrood"
+                                    data-price="4.00">Bestellen</button>
+                            </article>
+
+                            <!-- Roggebrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/Roggebrood.jpg" alt="Roggebrood van De Gouden Korst">
+                                <h2>Roggebrood</h2>
+                                <p>Dicht en voedzaam brood met een karakteristieke smaak.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="rogge-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="rogge-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Roggemeel</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Roggebrood"
+                                    data-price="3.50">Bestellen</button>
+                            </article>
+
+                            <!-- Meergranenbrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/meergranenbrood.jpeg" alt="Meergranenbrood van De Gouden Korst">
+                                <h2>Meergranenbrood</h2>
+                                <p>Rijk aan verschillende granen en zaden voor extra smaak en voedingswaarde.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="meergranen-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="meergranen-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Meergranenmeel</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                            <li>Gemengde zaden</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Meergranenbrood"
+                                    data-price="4.00">Bestellen</button>
+                            </article>
+
+                            <!-- Speltbrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/speltbrood.jpeg" alt="Speltbrood van De Gouden Korst">
+                                <h2>Speltbrood</h2>
+                                <p>Licht verteerbaar brood gemaakt van speltmeel.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="spelt-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="spelt-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Speltmeel</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Speltbrood"
+                                    data-price="3.50">Bestellen</button>
+                            </article>
+
+                            <!-- Notenbrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/notenbrood.jpeg" alt="Notenbrood van De Gouden Korst">
+                                <h2>Notenbrood</h2>
+                                <p>Rijk gevuld met verschillende noten voor extra smaak en crunch.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="noten-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="noten-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Volkorenmeel</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                            <li>Gemengde noten</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Notenbrood"
+                                    data-price="4.00">Bestellen</button>
+                            </article>
+
+                            <!-- Olijvenbrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/olijvenbrood.jpeg" alt="Olijvenbrood van De Gouden Korst">
+                                <h2>Olijvenbrood</h2>
+                                <p>Mediterraan brood met stukjes olijf voor een unieke smaak.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="olijven-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="olijven-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Bloem</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                            <li>Olijven</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Olijvenbrood"
+                                    data-price="4.50">Bestellen</button>
+                            </article>
+
+                            <!-- Rozijnenbrood -->
+                            <article class="brood-card">
+                                <img src="../afbeelding/rozijnenbrood.jpeg" alt="Rozijnenbrood van De Gouden Korst">
+                                <h2>Rozijnenbrood</h2>
+                                <p>Zoet brood gevuld met rozijnen voor een natuurlijke zoetheid.</p>
+                                <div class="hoeveelheid-selector">
+                                    <button type="button" class="min-btn">-</button>
+                                    <input type="number" min="0" value="0" class="hoeveelheid-input" readonly>
+                                    <button type="button" class="plus-btn">+</button>
+                                </div>
+                                <div class="accordion">
+                                    <button class="accordion-toggle" aria-expanded="false"
+                                        aria-controls="rozijnen-ingredienten">
+                                        Ingrediënten
+                                    </button>
+                                    <div id="rozijnen-ingredienten" class="accordion-content">
+                                        <ul>
+                                            <li>Bloem</li>
+                                            <li>Water</li>
+                                            <li>Zout</li>
+                                            <li>Gist</li>
+                                            <li>Rozijnen</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="bestel-btn" data-product="Rozijnenbrood"
+                                    data-price="4.00">Bestellen</button>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Informatie sectie -->
+                    <div class="bestellen-info-grid">
+                        <div class="info-card">
+                            <h3>Bezorginformatie</h3>
+                            <ul>
+                                <li>Gratis bezorging vanaf €25</li>
+                                <li>Bezorging binnen 24 uur</li>
+                                <li>Vers gebakken op bestelling</li>
+                                <li>100% tevredenheidsgarantie</li>
+                            </ul>
+                        </div>
+                        <div class="info-card">
+                            <h3>Contact</h3>
+                            <p>Heeft u vragen over uw bestelling?</p>
+                            <p>Bel ons: 0123-456789</p>
+                            <p>Of mail naar: bestellingen@degoudenkorst.nl</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 De Gouden Korst. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

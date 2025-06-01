@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broodsoorten - De Gouden Korst</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../afbeelding/logo.png" alt="Logo van De Gouden Korst">
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/assortiment.html" class="active">Assortiment</a></li>
+            <li><a href="../pages/brood.html">Brood</a></li>
+            <li><a href="../pages/bestellen.html">Bestellen</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <section class="broodsoorten">
+            <h1>Onze Ambachtelijke Broodsoorten</h1>
+            <p>Ontdek ons dagelijks vers gebakken brood, gemaakt met liefde en de beste ingrediënten. Elke broodsmaak
+                vertelt een verhaal van traditie en vakmanschap.</p>
+
+            <div class="brood-grid">
+                <!-- Broodkaart 1: Volkorenbrood -->
+                <article class="brood-card">
+                    <img src="../afbeelding/volkoren-brood.jpg" alt="Volkorenbrood van De Gouden Korst">
+                    <h2>Volkorenbrood</h2>
+                    <p>Een voedzaam brood met een knapperige korst, perfect voor dagelijks gebruik. Rijk aan vezels en
+                        volkoren granen.</p>
+                    <div class="accordion">
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="volkoren-ingredienten">
+                            Ingrediënten
+                        </button>
+                        <div id="volkoren-ingredienten" class="accordion-content" hidden>
+                            <ul>
+                                <li>Volkorenmeel</li>
+                                <li>Water</li>
+                                <li>Zout</li>
+                                <li>Gist</li>
+                                <li>Zonnebloempitten</li>
+                            </ul>
+                        </div>
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="volkoren-voeding">
+                            Voedingsinformatie
+                        </button>
+                        <div id="volkoren-voeding" class="accordion-content" hidden>
+                            <p>
+                                <strong>Calorieën:</strong> 250 kcal<br>
+                                <strong>Vet:</strong> 2g<br>
+                                <strong>Koolhydraten:</strong> 45g<br>
+                                <strong>Eiwit:</strong> 8g
+                            </p>
+                        </div>
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="volkoren-allergie">
+                            Allergie-informatie
+                        </button>
+                        <div id="volkoren-allergie" class="accordion-content" hidden>
+                            <p>Bevat: Gluten<br>
+                                Kan sporen bevatten van: Noten, Sesam</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Broodkaart 2: Witbrood -->
+                <article class="brood-card">
+                    <img src="../afbeelding/witte-brood.jpg" alt="Witbrood van De Gouden Korst">
+                    <h2>Witbrood</h2>
+                    <p>Zacht en luchtig brood, ideaal voor sandwiches. Perfect voor een lichte lunch of ontbijt.</p>
+                    <div class="accordion">
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="witbrood-ingredienten">
+                            Ingrediënten
+                        </button>
+                        <div id="witbrood-ingredienten" class="accordion-content" hidden>
+                            <ul>
+                                <li>Bloem</li>
+                                <li>Water</li>
+                                <li>Zout</li>
+                                <li>Gist</li>
+                                <li>Suiker</li>
+                            </ul>
+                        </div>
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="witbrood-voeding">
+                            Voedingsinformatie
+                        </button>
+                        <div id="witbrood-voeding" class="accordion-content" hidden>
+                            <p>
+                                <strong>Calorieën:</strong> 270 kcal<br>
+                                <strong>Vet:</strong> 1g<br>
+                                <strong>Koolhydraten:</strong> 50g<br>
+                                <strong>Eiwit:</strong> 7g
+                            </p>
+                        </div>
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="witbrood-allergie">
+                            Allergie-informatie
+                        </button>
+                        <div id="witbrood-allergie" class="accordion-content" hidden>
+                            <p>Bevat: Gluten<br>
+                                Kan sporen bevatten van: Melk</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Broodkaart 3: Desembrood -->
+                <article class="brood-card">
+                    <img src="../afbeelding/zuurdesembrood.jpg" alt="Desembrood van De Gouden Korst">
+                    <h2>Desembrood</h2>
+                    <p>Rustiek brood met een rijke smaak, gemaakt met natuurlijke desem. Een ware delicatesse voor de
+                        echte broodliefhebber.</p>
+                    <div class="accordion">
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="desem-ingredienten">
+                            Ingrediënten
+                        </button>
+                        <div id="desem-ingredienten" class="accordion-content" hidden>
+                            <ul>
+                                <li>Volkorenmeel</li>
+                                <li>Water</li>
+                                <li>Zout</li>
+                                <li>Desemstarter</li>
+                            </ul>
+                        </div>
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="desem-voeding">
+                            Voedingsinformatie
+                        </button>
+                        <div id="desem-voeding" class="accordion-content" hidden>
+                            <p>
+                                <strong>Calorieën:</strong> 230 kcal<br>
+                                <strong>Vet:</strong> 1.5g<br>
+                                <strong>Koolhydraten:</strong> 42g<br>
+                                <strong>Eiwit:</strong> 7g
+                            </p>
+                        </div>
+                        <button class="accordion-toggle" aria-expanded="false" aria-controls="desem-allergie">
+                            Allergie-informatie
+                        </button>
+                        <div id="desem-allergie" class="accordion-content" hidden>
+                            <p>Bevat: Gluten<br>
+                                Vrij van: Noten, Melk, Sesam</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 De Gouden Korst. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

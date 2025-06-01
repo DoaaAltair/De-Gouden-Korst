@@ -1,0 +1,85 @@
+{
+    "brood": [
+        {
+            "id": 1,
+            "naam": "Wit Brood",
+            "beschrijving": "Vers gebakken wit brood met een zachte textuur en subtiele smaak.",
+            "prijs": 3.50,
+            "afbeelding": "../images/brood/wit-brood.jpg",
+            "ingredienten": [
+                "Tarwebloem",
+                "Water",
+                "Gist",
+                "Zout"
+            ]
+        },
+        {
+            "id": 2,
+            "naam": "Bruin Brood",
+            "beschrijving": "Volkoren bruin brood met een rijke, nootachtige smaak.",
+            "prijs": 3.75,
+            "afbeelding": "../images/brood/bruin-brood.jpg",
+            "ingredienten": [
+                "Volkorenmeel",
+                "Water",
+                "Gist",
+                "Zout"
+            ]
+        },
+        {
+            "id": 3,
+            "naam": "Meergranen Brood",
+            "beschrijving": "Gezond meergranen brood met verschillende zaden en granen.",
+            "prijs": 4.25,
+            "afbeelding": "../images/brood/meergranen-brood.jpg",
+            "ingredienten": [
+                "Meergranenmeel",
+                "Zonnebloempitten",
+                "Lijnzaad",
+                "Water",
+                "Gist",
+                "Zout"
+            ]
+        },
+        {
+            "id": 4,
+            "naam": "Zuurdesem Brood",
+            "beschrijving": "Traditioneel zuurdesem brood met een unieke smaak en textuur.",
+            "prijs": 4.50,
+            "afbeelding": "../images/brood/zuurdesem-brood.jpg",
+            "ingredienten": [
+                "Tarwebloem",
+                "Zuurdesem",
+                "Water",
+                "Zout"
+            ]
+        },
+        {
+            "id": 5,
+            "naam": "Roggebrood",
+            "beschrijving": "Dicht en voedzaam roggebrood met een karakteristieke smaak.",
+            "prijs": 4.00,
+            "afbeelding": "../images/brood/roggebrood.jpg",
+            "ingredienten": [
+                "Roggemeel",
+                "Water",
+                "Gist",
+                "Zout"
+            ]
+        },
+        {
+            "id": 6,
+            "naam": "Ciabatta",
+            "beschrijving": "Italiaans brood met een luchtige structuur en knapperige korst.",
+            "prijs": 3.95,
+            "afbeelding": "../images/brood/ciabatta.jpg",
+            "ingredienten": [
+                "Tarwebloem",
+                "Water",
+                "Olijfolie",
+                "Gist",
+                "Zout"
+            ]
+        }
+    ]
+}
